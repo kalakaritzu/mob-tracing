@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mobtracing",
+  "version": "${version}",
+  "name": "Mob Tracing",
+  "description": "Visualizes entity AI in real time — see mob paths, aggro zones, attack targets, and look directions directly in the world.",
+  "authors": ["Mob Tracing"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.mobtracing.fabric.MobTracingFabric"],
+    "modmenu": ["com.mobtracing.fabric.modmenu.ModMenuIntegration"]
+  },
+  "mixins": ["mobtracing.client.mixins.json"],
+  "dependencies": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

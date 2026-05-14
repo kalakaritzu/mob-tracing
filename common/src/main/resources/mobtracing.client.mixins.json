@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.mobtracing.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "MobEntityAccessor",
+    "GoalSelectorAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

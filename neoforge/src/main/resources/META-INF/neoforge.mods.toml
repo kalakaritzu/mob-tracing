@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+mixinConfigs="mobtracing.client.mixins.json"
+
+[[mods]]
+modId="mobtracing"
+version="${version}"
+displayName="Mob Tracing"
+description="Visualizes entity AI in real time — see mob paths, aggro zones, attack targets, and look directions directly in the world."
+
+[[dependencies.mobtracing]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.4,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.mobtracing]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.4,1.22)"
+    ordering="NONE"
+    side="CLIENT"
