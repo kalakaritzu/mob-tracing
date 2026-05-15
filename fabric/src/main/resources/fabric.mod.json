@@ -4,6 +4,7 @@
   "version": "${version}",
   "name": "Mob Tracing",
   "description": "Visualizes entity AI in real time — see mob paths, aggro zones, attack targets, and look directions directly in the world.",
+  "icon": "icon.png",
   "authors": ["Mob Tracing"],
   "license": "MIT",
   "environment": "client",
